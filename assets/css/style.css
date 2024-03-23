@@ -1,0 +1,83 @@
+/* variables */
+:root {
+  --color-grey-dark: #373a3c;
+  --color-white: #ffffff;
+  --color-cream: #dddddd;
+}
+
+/* container */
+.container {
+  padding-left: 37px;
+  padding-right: 37px;
+}
+
+/* header */
+.navbar {
+  background-color: var(--color-grey-dark);
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.navbar-brand {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 37px;
+  line-height: 46px;
+  color: var(--color-white);
+}
+
+/* main */
+
+/* CARD */
+.card-title {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  font-style: normal;
+  color: var(--color-grey-dark);
+}
+
+.card-text {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  font-style: normal;
+  color: var(--color-grey-dark);
+}
+
+.btn {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  font-style: normal;
+  color: var(--color-grey-dark);
+  padding: 9px;
+}
+
+.btn-outline-primary {
+  border-radius: 4px;
+  border-color: var(--color-cream);
+}
+
+/* sections */
+.section-title {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  font-style: normal;
+  color: var(--color-grey-dark);
+}
+
+.section-subtitle {
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  color: var(--color-grey-dark);
+}

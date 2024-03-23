@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ricomida</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- GOOGLE FONTS LOBSTER -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- nav -->
+      <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container">
+          <!-- nav logo-->
+          <a class="navbar-brand md-auto" href="index.html">Ricomida</a>
+
+          <!-- nav icon button-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- nav  links-->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="mt-3">
+      <div class="container">
+        <!-- CARD PIZZA PRINCIPAL -->
+        <section
+          class="card mb-3 border-0 border-top border-black pt-3 rounded-0"
+          style="max-width: 540px"
+        >
+          <!-- ROW -->
+          <div class="row g-0">
+            <!-- COL Nº1 IMG -->
+            <div class="col-md-4">
+              <img
+                src="./assets/img/principal.jpg"
+                class="img-fluid rounded-start"
+                alt="Imagen de una pizza de queso horneada a la perfección, con trozos de queso dorado y burbujeante distribuidos de manera desigual sobre la superficie. La pizza está cortada en porciones y colocada sobre una tabla de madera rústica. En el fondo se ven ingredientes frescos como tomates cherry en rama, junto a unas ramitas de romero que añaden un toque de color verde y sugieren frescura y sabor casero."
+              />
+            </div>
+            <!-- COL Nº2 TEXT -->
+            <div class="col-md-8">
+              <div class="card-body p-0 pt-3">
+                <h1
+                  class="card-title text-center border-bottom pb-3 border-black mb-3"
+                >
+                  PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES
+                </h1>
+                <p class="card-text text-center">110 MIN / 6 A 8 PORCIONES</p>
+                <div class="d-flex justify-content-between">
+                  <button type="button" class="btn btn-outline-primary">
+                    Enviar por correo
+                  </button>
+                  <button type="button" class="btn btn-outline-primary">
+                    Añadir a favoritos
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="wrapper-section">
+          <!--SECTION INGREDIENTES  -->
+          <section>
+            <h2 class="section-title">INGREDIENTES</h2>
+            <section>
+              <h3 class="section-subtitle">Masa</h3>
+              <ul>
+                <li>20 gr de levadura seca instantánea</li>
+                <li>1 cucharadita de azúcar</li>
+                <li>500 ml agua tibia</li>
+                <li>100 ml aceite vegetal</li>
+                <li>4 cucharadas de aceite de oliva</li>
+                <li>65 gr harina de maíz fina (chuchoca)</li>
+                <li>2 cucharaditas de sal</li>
+                <li>625 gr harina</li>
+              </ul>
+            </section>
+            <section>
+              <h3 class="section-subtitle">Salsa</h3>
+              <ul>
+                <li>5 cucharadas de aceite de oliva</li>
+                <li>½ cebolla picada en cubos finos</li>
+                <li>2 cucharaditas de sal</li>
+                <li>3 cucharadas de Orégano Gourmet</li>
+                <li>1 ½ cucharadas de Albahaca Gourmet</li>
+                <li>2 tarros de tomates en cubos al natural</li>
+                <li>2 cucharaditas de azúcar</li>
+              </ul>
+            </section>
+            <section>
+              <h3 class="section-subtitle">Relleno</h3>
+              <ul>
+                <li>½ cebolla, en cubos</li>
+                <li>500 gr hojas de espinacas picadas</li>
+                <li>400 gr de champiñones, laminados</li>
+                <li>300 gr de queso mozarella</li>
+                <li>4 cucharadas queso parmesano</li>
+              </ul>
+            </section>
+          </section>
+          <!--SECTION PREPARACION  -->
+          <section>
+            <h2 class="section-title"></h2>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer></footer>
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
